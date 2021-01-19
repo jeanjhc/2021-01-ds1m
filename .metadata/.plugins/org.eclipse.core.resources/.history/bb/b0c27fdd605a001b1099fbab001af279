@@ -13,12 +13,7 @@ public class Conta {
 	// *** getter and setters
 	
 	public void setTipo(String tipo) {
-		
-		if (tipo.equals("Corrente") || tipo.equals("poupança")) {
 		this.tipo = tipo; 
-	} else{
-		System.out.println("a conta deve ser poupança ou corrente");
-	}
 	}
 	
 	public void depositar(double valorDeposito) {

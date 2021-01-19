@@ -10,10 +10,10 @@ public class App {
 		Conta contaDaAna = new Conta();
 		Conta contaDoJoao = new Conta();
 		
-		//*** Conta da Ana
+		//*** conta da Ana
 		contaDaAna.titular = "Ana Gomes";
 		contaDaAna.numero = "111-98";
-		contaDaAna.setTipo= ("Abobora");
+		contaDaAna.tipo = "Corrente";
 		contaDaAna.ativa = true;
 		contaDaAna.chequeEspecial = 200;
 		contaDaAna.depositar(100);
@@ -37,7 +37,7 @@ public class App {
 		System.out.println("****** O saldo da conta é " + saldoDaConta);
 		
 	// *** conta do João
-		contaDoJoão.setTipo=("corrente");  
+		contaDoJoão.tipo="sadklnasl" 
 		
 		
 	}
